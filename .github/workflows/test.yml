@@ -1,0 +1,24 @@
+name: Test
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:11.5
+        ports: ["5432:5432"]
+        options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+    steps:
+    - uses: actions/checkout@v1
+    - name: Build and start Docker containers
+      run: |
+        docker-compose -f config/docker/compose.yml up -d web
+    - name: Run database migrations
+      run: |
+        docker-compose -f config/docker/compose.yml exec -T archives bash -l -c 'cd /app; bundle exec rake db:create; bundle exec rake db:migrate'
+        docker-compose -f config/docker/compose.yml exec -T web bash -l -c 'cd /app; bin/rake db:create; bin/rake db:migrate'
+    - name: Run tests
+      run: |
+        docker-compose -f config/docker/compose.yml exec -T web bash -l -c 'cd /app; bin/rails test --no-ci-clean'
+        docker cp docker_web_1:/app/test/reports /tmp

@@ -1,15 +1,5 @@
 version: '3'
 services:
-  db:
-    image: r888888888/postgres
-    ports:
-      - "5432:5432"
-    environment:
-      - POSTGRES_PASSWORD
-  redis:
-    image: redis:latest
-    ports:
-      - "6379:6379"
   archives:
     image: r888888888/archives
     command: sleep 1d
@@ -23,8 +13,6 @@ services:
       - AMAZON_SECRET
       - SQS_ARCHIVES_URL
       - RUN
-    depends_on:
-      - db
   web:
     environment:
       - SECRET_TOKEN
@@ -47,9 +35,6 @@ services:
       - DANBOORU_NICO_SEIGA_PASSWORD
       - DANBOORU_PERSIST_PIXIV_SESSION
       - DANBOORU_TUMBLR_CONSUMER_KEY
-      - CIRCLE_NODE_TOTAL
-      - CIRCLE_NODE_INDEX
-      - CIRCLE_BUILD_IMAGE
     build: 
       context: ../..
       dockerfile: config/docker/danbooru-ci
@@ -57,6 +42,4 @@ services:
     ports:
       - "3000:3000"
     depends_on:
-      - db
       - archives
-      - redis

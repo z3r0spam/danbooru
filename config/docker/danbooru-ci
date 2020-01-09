@@ -18,11 +18,6 @@ USER root
 COPY . /app
 RUN chown -R danbooru:danbooru /app
 
-# install circleci cli tools
-RUN curl -q -o /usr/local/bin/circleci https://circle-downloads.s3.amazonaws.com/releases/build_agent_wrapper/circleci
-RUN chmod +x /usr/local/bin/circleci
-RUN sed -i'' -e 's/run -it/run -i/' /usr/local/bin/circleci
-
 USER danbooru
 RUN git reset --hard master
 RUN git clean --force
