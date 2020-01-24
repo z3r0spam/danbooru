@@ -1291,6 +1291,12 @@ class Post < ApplicationRecord
         # XXX This must happen *after* the `is_deleted` flag is set to true (issue #3419).
         give_favorites_to_parent(options) if options[:move_favorites]
 
+       if reason == "Unapproved in three days"
+         uploader.new_upload_limit.update_limit!(self)
+       else
+         uploader.new_upload_limit.recalculate_limit!
+       end
+
         unless options[:without_mod_action]
           ModAction.log("deleted post ##{id}, reason: #{reason}", :post_delete)
         end
