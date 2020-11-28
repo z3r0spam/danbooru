@@ -1,0 +1,84 @@
+[1mdiff --git a/.bash_history b/.bash_history[m
+[1mindex 0d8a70f83..85943bb69 100644[m
+[1m--- a/.bash_history[m
+[1m+++ b/.bash_history[m
+[36m@@ -124,3 +124,67 @@[m [mbundle exec rake webpacker:install[m
+ cd[m
+ ls[m
+ bundle exec rails server -b 192.168.178.21[m
+[32m+[m[32mcd[m
+[32m+[m[32mbundle exec rails server -b 192.168.178.21[m
+[32m+[m[32mbundle exec cap production deploy[m
+[32m+[m[32mgit add *[m
+[32m+[m[32mgit commit -m "test"[m
+[32m+[m[32mgit push[m
+[32m+[m[32mbundle exec cap production deploy[m
+[32m+[m[32mgit pull[m
+[32m+[m[32mgit fetch -all[m
+[32m+[m[32mgit fetch --all[m
+[32m+[m[32mbundle exec cap production deploy[m
+[32m+[m[32mgit reset HEAD[m
+[32m+[m[32mgit diff HEAD[m
+[32m+[m[32mgit add *[m
+[32m+[m[32mgit diff[m
+[32m+[m[32mgit add .[m
+[32m+[m[32mgit diff[m
+[32m+[m[32mgit add -A[m
+[32m+[m[32mgit diff[m
+[32m+[m[32mgit commit -m  "test"[m
+[32m+[m[32mgit push[m
+[32m+[m[32mbundle exec cap production deploy[m
+[32m+[m[32mgit diff[m
+[32m+[m[32mgit add -A[m
+[32m+[m[32mgit diff[m
+[32m+[m[32mgit add .[m
+[32m+[m[32mgit diff[m
+[32m+[m[32mgit reset HEAD[m
+[32m+[m[32mgit diff[m
+[32m+[m[32mgir reset --hard HEAD[m
+[32m+[m[32mgit reset -- hard HEAD[m
+[32m+[m[32mgit reset --hard HEAD[m
+[32m+[m[32mgit diff[m
+[32m+[m[32mbundle exec cap production deploy[m
+[32m+[m[32mgit pull[m
+[32m+[m[32mgit diff[m
+[32m+[m[32mgit clean[m
+[32m+[m[32mgit clean -f[m
+[32m+[m[32mgit diff[m
+[32m+[m[32mgit checkout .[m
+[32m+[m[32mgit reset[m
+[32m+[m[32mgit clean -fd[m
+[32m+[m[32mgit diff[m
+[32m+[m[32mgit reset --hard[m
+[32m+[m[32mgit diff[m
+[32m+[m[32mgit pull[m
+[32m+[m[32mgit diff[m
+[32m+[m[32mgit clean[m
+[32m+[m[32mgit clean -f[m
+[32m+[m[32mgit diff[m
+[32m+[m[32mgit add .[m
+[32m+[m[32mgit diff[m
+[32m+[m[32mgit commit -m  "test"[m
+[32m+[m[32mgit add .bundle/ruby/2.7.0/dtext_rb-a95bf1d537cb/[m
+[32m+[m[32mgit diff[m
+[32m+[m[32mbundle exec cap production deploy[m
+[32m+[m[32mrails c[m
+[32m+[m[32mgit add *[m
+[32m+[m[32mgit diff[m
+[32m+[m[32mgit commit -m " test"[m
+[32m+[m[32mgit push[m
+[32m+[m[32mbundle exec cap production deploy[m
+[32m+[m[32mrake db:seed[m
+[32m+[m[32mrails c[m
+[1mdiff --git a/config/unicorn/production.rb b/config/unicorn/production.rb[m
+[1mindex 7ac586706..c5693b671 100644[m
+[1m--- a/config/unicorn/production.rb[m
+[1m+++ b/config/unicorn/production.rb[m
+[36m@@ -9,6 +9,7 @@[m [mtimeout 180[m
+ listen "/tmp/.unicorn.sock", backlog: 1024[m
+ [m
+ # Spawn unicorn master worker for user apps (group: apps)[m
+[32m+[m[32muser 'zerox', 'zerox'[m
+ user 'danbooru', 'danbooru'[m
+ [m
+ # Fill path to your app[m
