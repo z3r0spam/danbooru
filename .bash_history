@@ -124,3 +124,67 @@ bundle exec rake webpacker:install
 cd
 ls
 bundle exec rails server -b 192.168.178.21
+cd
+bundle exec rails server -b 192.168.178.21
+bundle exec cap production deploy
+git add *
+git commit -m "test"
+git push
+bundle exec cap production deploy
+git pull
+git fetch -all
+git fetch --all
+bundle exec cap production deploy
+git reset HEAD
+git diff HEAD
+git add *
+git diff
+git add .
+git diff
+git add -A
+git diff
+git commit -m  "test"
+git push
+bundle exec cap production deploy
+git diff
+git add -A
+git diff
+git add .
+git diff
+git reset HEAD
+git diff
+gir reset --hard HEAD
+git reset -- hard HEAD
+git reset --hard HEAD
+git diff
+bundle exec cap production deploy
+git pull
+git diff
+git clean
+git clean -f
+git diff
+git checkout .
+git reset
+git clean -fd
+git diff
+git reset --hard
+git diff
+git pull
+git diff
+git clean
+git clean -f
+git diff
+git add .
+git diff
+git commit -m  "test"
+git add .bundle/ruby/2.7.0/dtext_rb-a95bf1d537cb/
+git diff
+bundle exec cap production deploy
+rails c
+git add *
+git diff
+git commit -m " test"
+git push
+bundle exec cap production deploy
+rake db:seed
+rails c
