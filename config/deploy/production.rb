@@ -1,4 +1,5 @@
 set :user, "danbooru"
+set :user, "zerox"
 set :rails_env, "production"
 set :delayed_job_workers, 8
 append :linked_files, ".env.production"
