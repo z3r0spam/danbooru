@@ -1,0 +1,8 @@
+---
+0.0.2 rake:>= 0,rake-compiler:>= 0|checksum:745670b4eb5ef57ee7f67ef9a2750217d78ec6aa567882bbe09f7ca1aba24469
+0.0.3 rake:>= 0,rake-compiler:>= 0|checksum:013c1d2dff944c99fb6c0055f893796b4db245590c92e630edb4696e842013d7
+0.0.4 rake:>= 0,rake-compiler:>= 0|checksum:463adda94f93e1924eb8547ffc0c61d027cc439020e7af5af0f66af17b393179
+0.0.5 rake:>= 0,rake-compiler:>= 0|checksum:018e49b4a12a0d29d4ec59dc486f343a09476a0db9176d075e61c59b50f71ddc
+0.0.6 rake:>= 0,rake-compiler:>= 0|checksum:781598e1e75e01cd6a1846e7337f241b47b39200fe70ceb9a4b2615b6a155b3f
+0.1.0 rake:>= 0,rake-compiler:>= 0|checksum:e798b51f238975c1b5e3ea4cb7b1430786b6e2866317882b37f80b89c4765701
+0.2.0 |checksum:a5f4a6f16904ca72e74b6257dc11517bfea82b651643f1c6d2895b41255d2b71

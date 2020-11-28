@@ -1,0 +1,25 @@
+# pack-refs with: peeled fully-peeled sorted 
+360a8b4d32033858624cc815578043d01552adf7 refs/heads/feat-colorize-wiki-links
+dfb91e0d74133269b5ddf97143fc5b2d6a025ebc refs/heads/feat-new-id-links
+24a4a8c198c9e52c5ffc7f1dbdca5ddf68ff2b97 refs/heads/fix-28
+046d48502b472c9f439f4d15ae9bea11a954bdbf refs/heads/fix-code-duplication
+8506ce255bf1ab659f34971203b238af6f367b2c refs/heads/fix-external-links
+8a3290e82270124d7e8848619682bd8f8ebb278a refs/heads/fix-inline-links
+315f75f0a1766a919cd35970b6ab78d4391e18aa refs/heads/fix-memory-leaks
+a95bf1d537cbdba4585adb8e123f03f001f56fd7 refs/heads/master
+a3eadd2b476b7900fc711c326f9c82971289daa0 refs/heads/master-evazion
+104dcd9ddc8407fb047165b49830f6cc07e4c21e refs/tags/v
+22ff0d482b2319b5ed2ca2454319e6fce06e3209 refs/tags/v1.0.0
+4919d3831f845d510e9b29096e4ffb12f3bf3f4b refs/tags/v1.0.10
+def91622c2530f862214b896c49ec99173251da7 refs/tags/v1.0.11
+b94e4d9962ba7f5c50091990d5706d6ea5f46b72 refs/tags/v1.0.12
+9246b51e26404e977383912a5c949bef6f3ad09f refs/tags/v1.0.13
+7dc457fd1ba455aa359beb4b94ec14ea63d086da refs/tags/v1.0.14
+e349031a5dcc74079d636c40243e099bde3e47d5 refs/tags/v1.0.2
+e2dd779f994ad8b4010ec36a92ad93ad43b2e3f1 refs/tags/v1.0.3
+600f80ba497eae302eaa985b0d9a298c52fb1b30 refs/tags/v1.0.4
+422d4d83c9e49a7e8324f65c3f7e30a6e3e24976 refs/tags/v1.0.5
+e59a57337ceebc001238319be63b73fd6b4b55c6 refs/tags/v1.0.6
+665178c369a3d15095b041b36053cdc1562ed49d refs/tags/v1.0.7
+8afef10401aab15998b63ae735829fb37cfdf254 refs/tags/v1.0.8
+160ca374ded760c7f404797d68e7ab7487c09a20 refs/tags/v1.0.9

@@ -1,0 +1,17 @@
+---
+0.1.0 activerecord:>= 4.0.0,railties:>= 4.0.0|checksum:08c564ff0a8997bdec5975b025482c20c345d2c8b03ca3704997431d1f5e0136,ruby:~> 2.0
+0.2.0 activerecord:>= 4.0.0,railties:>= 4.0.0|checksum:731ac0266deca030f48d6d2633dfc656f18b766e3cb7b1848ec8919dde9f5098,ruby:~> 2.0
+0.2.1 activerecord:>= 4.0.0,railties:>= 4.0.0|checksum:eb16395e9d8e884f4d09b85285c084b926873b58d1c80a21f63c126e3edd5f95,ruby:~> 2.0
+0.3.0 activerecord:>= 4.0.0,railties:>= 4.0.0|checksum:13b91d0e3554ec9d9e5c53b6c3a1c447915e3d3083d82d3246abd7bca2e580b6,ruby:~> 2.0
+1.0.0 activerecord:>= 4.0.0,railties:>= 4.0.0|checksum:4185f54cc231fe22b1afa07c4fe36ee9292c0b077f5b9e18aeaa6d5a05f73bf2,ruby:~> 2.0
+1.1.0 activerecord:>= 4.0.0,railties:>= 4.0.0|checksum:f9046dfbc22ed6c8e0b291bc4796c27c400c784cc218e1712f1a69184b2cda3f,ruby:~> 2.1
+1.1.1 activerecord:>= 4.0.0,railties:>= 4.0.0|checksum:00ad550ae85f70afb521040a31ac2caedc07699ed10bc967b2ea590f0c482c76,ruby:~> 2.1
+1.2.0 activerecord:>= 4.0.0,railties:>= 4.0.0|checksum:6f1181b68f17a174a0bf64fdc3f7fd3611cf86241beb66265d4bc7e3e8fc839d,ruby:~> 2.1
+1.3.0 activerecord:>= 4.0.0,railties:>= 4.0.0|checksum:c5fc20e5bbc09b99e33da5a73782516100a66870da1e93d2433e5cefbbfd3793,ruby:~> 2.1
+1.4.0 activerecord:>= 4.0.0,railties:>= 4.0.0|checksum:fa836fa038bd43180fbcbc9f17d3c8c79d515d3bc7a601e77559e13bf6295e08,ruby:~> 2.1
+1.4.1 activerecord:>= 4.0.0,railties:>= 4.0.0|checksum:258e87c62e80db3116bbb7eba88ad0b0c6f52be9e1fbd81084a872d1ca8821ec,ruby:~> 2.1
+1.5.0 activerecord:>= 4.0.0,railties:>= 4.0.0|checksum:01b9c9e4470ebf7c2ab7331deaec7137e125a5ac7fbe1f67eb4f3c17682a0ed5,ruby:>= 2.3.0
+1.5.1 activerecord:>= 4.0.0,railties:>= 4.0.0|checksum:8b1e01da2c64c21c21da459972ba4155d3cbd85c3babb69885f45b9bf950d04b,ruby:>= 2.3.0
+1.5.2 activerecord:>= 4.0.0,railties:>= 4.0.0|checksum:7ead7215e79f94817ad5cf441ee486626fdf3d4f814632ee7c0465479d3aa202,ruby:>= 2.3.0
+1.5.3 activerecord:>= 4.0.0,railties:>= 4.0.0|checksum:c859bb7560b2371896b34c0a51cf06d39773f559a53235c6b6fc654c6186aa61,ruby:>= 2.3.0
+1.5.4 activerecord:>= 4.0.0,railties:>= 4.0.0|checksum:b3a79a9f4d9b5c2e2185b6dc2b47da9fa7bcbd3e70f1c6906cd3340c9eee3686,ruby:>= 2.3.0
